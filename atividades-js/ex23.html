@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 23</title>
+
+    <script>
+
+		var resMenor = 0;
+		var resMaior = 0;
+		
+		for (var i = 0; i < 20; i++) {
+			var numDigitado = parseInt(prompt("informe um numero"));
+			
+			if(i == 0){
+			var menor = numDigitado;
+			var maior = numDigitado;
+			}
+			
+
+			if (numDigitado < menor) {
+
+				menor = numDigitado;
+			
+			}else{
+
+				if (numDigitado > maior) {
+
+					maior = numDigitado;
+				}
+
+			}
+		
+		resMaior = maior;
+		resMenor = menor;
+
+
+		}
+
+
+		prompt(resMaior + " " + resMenor);
+
+	</script>
+</head>
+<body>
+    
+</body>
+</html>

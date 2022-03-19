@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 12</title>
+    <script>
+        var comprimento_pista = parseFloat(prompt("Digite o comprimento da pista EM METROS"));
+        var total_voltas = parseFloat(prompt("Difite o número total de voltas da pista."));
+        var reabastecimento = parseFloat(prompt("Digite o número de reabastecimentos desejáveis."));
+        var combustivel_gasto = parseFloat(prompt("Digite o número do consumo de combustivel (KM/L)."));
+        var combustivel_total = parseFloat(prompt("Digite a quantidade de litros que o tanque de combustivel pode possuir."));
+        var comprimento_total = (comprimento_pista / 1000) * total_voltas;
+        var comprimento_reabastecimento = comprimento_total / reabastecimento;
+        var reabastecimento_min_combustivel = comprimento_reabastecimento / combustivel_gasto;
+        document.write( reabastecimento_min_combustivel);
+        
+
+         
+         
+         
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

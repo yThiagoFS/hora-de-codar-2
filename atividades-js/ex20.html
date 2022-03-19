@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 20</title>
+    <script>
+        var poligono_regular = parseFloat(prompt(" Digite 3 para TRIANGULO, 4 para QUADRADO e 5 para PENTÁGONO"));
+        var perimetro = parseFloat(prompt("Caso seja um TRIANGULO, digite seu PERIMETRO."));
+        var area = parseFloat(prompt("Caso seja um QUADRADO, digite sua ÁREA"));
+
+        if (poligono_regular==3){document.write("Triângulo, possui um perimetro de:" + perimetro + "centimetros.")
+        document.write("<br>")
+        document.write("O valor correspondente á um dos  lados do triângulo é de:" + (perimetro / 3) + "centimetros"); 
+        }
+        if (poligono_regular==4){document.write("Quadrado, possui uma area de:" + area + "centimetros.")
+        document.write("<br>")
+        document.write("O valor correspondente á um dos lados do quadrado é de:" + (area / 4) + "centimetros"); 
+        }
+    
+        if (poligono_regular==5)
+        {document.write("A sua figura é um PENTÁGONO.");
+        }
+        if (poligono_regular < 3) {
+            document.write("A sua figura NÃO É UM POLIGONO");
+        }
+        if (poligono_regular > 5 ){
+            document.write("POLIGONO NÃO IDENTIFICADO.");
+        }
+        
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>

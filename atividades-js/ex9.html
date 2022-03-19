@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 9</title>
+
+    <script>
+        var contagem = 0;
+        var soma = 0;
+
+        while (contagem < 6) {
+            numero = parseFloat(prompt("Informe um número"));
+            
+            contagem++;
+            
+            if (numero >= 0){
+                document.write(`Você informou o valor: ${numero} <br>`);
+            }  
+            if (numero <72){
+                soma = soma + numero;
+                
+            }
+            
+            
+            
+        }
+        document.write(`A soma dos valores menores que 72 é de: ${soma}`)
+        
+        
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
